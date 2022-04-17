@@ -1,0 +1,20 @@
+{
+  "name": "Stupid Blocker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Stupid Blocker",
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "activeTab", "declarativeContent"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
