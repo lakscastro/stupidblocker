@@ -1,4 +1,4 @@
-## How to use
+## How to install
 
 1. Download this repo as zip
 2. Extract content to a folder `stupidblocker`
@@ -10,6 +10,11 @@
 A stupid **chrome** extension to avoid my `ctrl + t` procrastination sessions
 
 Any hostname (google.com, twitter.com, etc.) added here will be block listed and then redirected to a gist I created when they are loaded into current tab
+
+## How to use
+
+- Add a hostname in the pop-up input + button
+- Remove a hostname by double clicking it
 
 ## How it looks like
 
