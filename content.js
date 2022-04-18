@@ -13,7 +13,7 @@ window.onload = async function (e) {
       return false;
     })()
   ) {
-    return setTimeout(closeIt, 3 * 1000);
+    return setTimeout(closeIt, 15 * 1000);
   }
 
   function closeIt() {
