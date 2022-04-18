@@ -1,0 +1,20 @@
+{
+  "name": "Kill Down",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Kill Down",
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "activeTab", "declarativeContent"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
