@@ -14,7 +14,7 @@ window.onload = async function (e) {
     })()
   ) {
     return (window.location.href =
-      "https://gist.githubusercontent.com/lakscastro/215548b94ac976bd4aaeec99ecf88a0a/raw/05193e0706330fdd0f63fb609aa7b7bc9693e09b/woao.txt");
+      "https://gist.githubusercontent.com/alexrintt/215548b94ac976bd4aaeec99ecf88a0a/raw/05193e0706330fdd0f63fb609aa7b7bc9693e09b/woao.txt");
   }
 
   function renderUrls(urls = avoidUrls) {
